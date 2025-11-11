@@ -1,22 +1,25 @@
-# s = {2, 3, 4, 3, 2, 6}
-# print(s)
+# 1. Sets remove duplicate values:
+s = {2, 3, 4, 3, 2, 6}
+print("1. Sets remove duplicate values:", s)
 
-# info = {"Carla", 29, False, 5.9, 29}
-# print(info)
-# print(type(info))
+# 2. Sets can store different types of values:
+info = {"Carla", 29, False, 5.9, 29}
+print("2. A single set can store different types of values: ", info)
+print(type(info))
 
-# harry = {}
-# print(type(harry))
-#
-# potter = set()
-# print(type(potter))
+# 3. Creating empty dictionaries and sets:
+harry = {}
+print(type(harry))
 
-# for value in info:
-#     print(value)
+potter = set()
+print(type(potter))
+
+for value in info:
+    print(value)
 ###########################
 
-s1 = {1, 2, 5, 6}
-s2 = {2, 4, 5, 7}
+# s1 = {1, 2, 5, 6}
+# s2 = {2, 4, 5, 7}
 
 # print(s1.union(s2))
 # s1.update(s2)
@@ -57,5 +60,5 @@ s2 = {2, 4, 5, 7}
 # s1.clear()
 # print(s1)
 
-print(1 in s1)
+# print(1 in s1)
 
