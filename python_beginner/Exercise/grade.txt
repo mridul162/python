@@ -1,0 +1,5 @@
+ID: 101 | Name: Alice    | Grade: B
+ID: 102 | Name: Bob      | Grade: C
+ID: 103 | Name: Charlie  | Grade: A
+ID: 104 | Name: Diana    | Grade: D
+ID: 105 | Name: Evan     | Grade: F
