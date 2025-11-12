@@ -26,19 +26,19 @@ print("\n5. Set operations:")
 s1 = {1, 2, 5, 6}
 s2 = {2, 4, 5, 7}
 print("   a. s1 Union s2: ", s1.union(s2))  
-s1.update(s2)                                                      # Updates s1 to union
+s1.update(s2)                                             # Updates s1 to union
 print("   b. Updates s1 to union: s1=", s1)
 
 s1 = {1, 2, 5, 6}
 s_int = s1.intersection(s2) 
 print("   c. s1 intersection s2: ", s_int)
-s1.intersection_update(s2)                                         # Updates s1 to intersection
+s1.intersection_update(s2)                                # Updates s1 to intersection
 print("   d. Updates s1 to intersection: s1=", s1)
 
 s1 = {1, 2, 5, 6}
 s_sd = s1.symmetric_difference(s2)                         
 print("   e. Symmetric difference (s1-s2): ", s_sd)
-s1.symmetric_difference_update(s2)                                 # Updates s1 to symmetric difference
+s1.symmetric_difference_update(s2)                        # Updates s1 to symmetric difference
 print("   f. Updates s1 to symmetric difference: s1=", s1)
 
 s1 = {1, 2, 5, 6}
